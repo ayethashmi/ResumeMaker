@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/ly_tmpview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_600sdp"
+        android:background="#053348"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgprofile_sanj"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:src="@drawable/imgdvid" />
+
+                    <TextView
+                        android:id="@+id/title_cont_first_sanj"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/bgforall"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:text="Personal Info"
+                        android:textColor="@color/black"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/title_phone_first"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="Phone"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/tv_phoneNumber_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text="+0096655121"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/id_email_first"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text="Email"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/tv_emailshow_sanj"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text="cvmaker@gmail.com"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/id_address_first"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text="Address"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/tv_adress_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text="Your Street address/Town/City/Zip"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/id_education_first_sanj"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:background="@drawable/bgforall"
+                        android:paddingStart="@dimen/_20sdp"
+                        android:paddingTop="@dimen/_3sdp"
+                        android:text="Education"
+                        android:textColor="@color/black"
+                        android:textSize="10dp" />
+
+                    <LinearLayout
+                        android:id="@+id/ly_eduone_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/id_dates_complet_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="2014"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+
+                        <TextView
+                            android:id="@+id/degreename_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Degree Name"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+
+                        <TextView
+                            android:id="@+id/universityname_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="University Name"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ly_edutwo_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/id_date_second_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="2010"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+
+                        <TextView
+                            android:id="@+id/degnamesecond_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Degree Name"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+
+                        <TextView
+                            android:id="@+id/universitynamesecond_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="University Name"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ly_eduthree_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/id_date_third_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="2010"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+
+                        <TextView
+                            android:id="@+id/degnamethird_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="Degree Name"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+
+                        <TextView
+                            android:id="@+id/universitynamethird_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:text="University Name"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/id_projects_first_sanj"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/bgforall"
+                        android:paddingStart="@dimen/_20sdp"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:text="Projects"
+                        android:textColor="@color/black"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/id_projectname_sanj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/id_projecturl1_sanj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/id_projectname2_sanj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/id_projecturl2_sanj"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_560sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name_sanj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="LUCKY SANJAYA"
+                android:textColor="#ffc905"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/tv_designation_sanj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="WEB DESIGNER"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_marginStart="@dimen/_1sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@drawable/objbg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title_obj_first_sanj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_17sdp"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:text="Objective"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/objDetail_sanj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:text="@string/about"
+                    android:textColor="@color/white"
+                    android:textSize="7dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_260sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:background="@drawable/expobj"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title_exp_first_sanj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="14dp"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:paddingTop="@dimen/_2sdp"
+                    android:text="Experience"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <LinearLayout
+                    android:id="@+id/ly_exper_datefssanj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/join_id_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2020"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <View
+                        android:layout_width="@dimen/_3sdp"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginEnd="@dimen/_1sdp"
+                        android:background="@drawable/whiteline" />
+
+                    <TextView
+                        android:id="@+id/end_id_sanj"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="wrap_content"
+                        android:text="2021"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/id_designation_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_17sdp"
+                        android:text="Senior UX Designer"
+                        android:textColor="@color/white"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_experDes_first_sanj"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_55sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/id_compnyname_sanj"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="wrap_content"
+                        android:text="Company Name"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/detaildescription_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_55sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetur adipiscing elit, sed do eiusmod temporconsectetur adipiscing elit, sed do eiusmod tempor."
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_experience2_datetwo_sanj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/nd_job_start_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2018"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <View
+                        android:layout_width="@dimen/_3sdp"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginEnd="@dimen/_1sdp"
+                        android:background="@drawable/whiteline" />
+
+                    <TextView
+                        android:id="@+id/job_end_second_sanj"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="match_parent"
+                        android:text="2019"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/id_designation2_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_17sdp"
+                        android:text="Junior UX Designer"
+                        android:textColor="@color/white"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_experienceDes2_two_sanj"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_55sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/id_description2_sanj"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="wrap_content"
+                        android:text="Company Name"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/detaildescription2_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_55sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetur adipiscing elit, sed do eiusmod temporconsectetur adipiscing elit, sed do eiusmod tempor."
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_experience3_datethree_sanj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/job_joinstrt3_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2017"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <View
+                        android:layout_width="@dimen/_3sdp"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="@dimen/_2sdp"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginEnd="@dimen/_1sdp"
+                        android:background="@drawable/whiteline" />
+
+                    <TextView
+                        android:id="@+id/job_end_3_sanj"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="wrap_content"
+                        android:text="2018"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/id_designation3_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_17sdp"
+                        android:text="UX Designer"
+                        android:textColor="@color/white"
+                        android:textSize="7dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_experienceDes3_three_sanj"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_55sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/id_description3_sanj"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="wrap_content"
+                        android:text="Company Name"
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+
+                    <TextView
+                        android:id="@+id/detaildescription3_sanj"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_55sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor consectetur adipiscing elit, sed do eiusmod temporconsectetur adipiscing elit, sed do eiusmod tempor."
+                        android:textColor="@color/white"
+                        android:textSize="7dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/skillsobj"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title_skill_first_sanj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="12dp"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="Skills"
+                    android:textColor="@color/black"
+                    android:textSize="10dp" />
+
+                <LinearLayout
+                    android:id="@+id/lyid_firsttwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_skill1_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Photoshop"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ly_skill2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_30sdp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_skill2_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="InDesign"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lyid_lasttwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_skill3_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Illustrator"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ly_skill3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_skill4_sanj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_30sdp"
+                            android:text="After Effect"
+                            android:textColor="@color/white"
+                            android:textSize="7dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

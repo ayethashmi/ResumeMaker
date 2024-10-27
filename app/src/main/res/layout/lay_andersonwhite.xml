@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ly_tmpview_andeson"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_600sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="@dimen/_115sdp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_115sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/imgprofile_whiteDvid"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:src="@drawable/imgdvid" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/edu_wanderon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_25sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="right"
+                            android:text="EDUCATION"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <View
+                            android:layout_width="@dimen/_22sdp"
+                            android:layout_height="2dp"
+                            android:layout_marginStart="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@drawable/yallowview" />
+
+                        <LinearLayout
+                            android:id="@+id/lyeduAnderFirst"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/dates_complet_andeson"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:gravity="right"
+                                android:text="2014"
+                                android:textSize="7dp" />
+
+                            <TextView
+                                android:id="@+id/degreename_anderson"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:gravity="right"
+                                android:text="Degree Name"
+                                android:textSize="7dp" />
+
+                            <TextView
+                                android:id="@+id/universityname_andeson"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:gravity="right"
+                                android:text="University Name"
+                                android:textSize="7dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lyeduAnderSecond"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/id_date_secondAndeson"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="right"
+                                android:text="2010"
+                                android:textSize="7dp" />
+
+                            <TextView
+                                android:id="@+id/degnamesecondAndeson"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:gravity="right"
+                                android:text="Degree Name"
+                                android:textSize="7dp" />
+
+                            <TextView
+                                android:id="@+id/universitynamesecondAndeson"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:gravity="right"
+                                android:text="University Name"
+                                android:textSize="7dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lyeduAnderThird"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/id_date_thirdandr"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:gravity="right"
+                                android:text="2012"
+                                android:textSize="7dp" />
+
+                            <TextView
+                                android:id="@+id/degnamethirdandr"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:gravity="right"
+                                android:text="Degree Name"
+                                android:textSize="7dp" />
+
+                            <TextView
+                                android:id="@+id/universitynamethirdandr"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:gravity="right"
+                                android:text="University Name"
+                                android:textSize="7dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/contact_wanderon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="right"
+                            android:text="PERSONAL INFO"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <View
+                            android:layout_width="@dimen/_22sdp"
+                            android:layout_height="2dp"
+                            android:layout_marginStart="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@drawable/yallowview" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_30sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="right"
+                            android:text="Phone"
+                            android:textSize="8dp" />
+
+                        <TextView
+                            android:id="@+id/id_phoneNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:gravity="right"
+                            android:text="+0096655121"
+                            android:textSize="7dp" />
+
+                        <TextView
+                            android:id="@+id/id_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="right"
+                            android:text="Email"
+                            android:textSize="8dp" />
+
+                        <TextView
+                            android:id="@+id/id_email_andrson"
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:gravity="right"
+                            android:text="cvmaker@gmail.com"
+                            android:textSize="7dp" />
+
+                        <TextView
+                            android:id="@+id/id_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:gravity="right"
+                            android:text="Address"
+                            android:textSize="8dp" />
+
+                        <TextView
+                            android:id="@+id/id_adress_andeson"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:gravity="right"
+                            android:text="Your Street address/Town/City/Zip"
+                            android:textSize="7dp" />
+
+                        <TextView
+                            android:id="@+id/proj_wanderon"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_30sdp"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:gravity="right"
+                            android:text="PROJECTS"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <View
+                            android:layout_width="@dimen/_22sdp"
+                            android:layout_height="2dp"
+                            android:layout_marginStart="@dimen/_70sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:background="@drawable/yallowview" />
+
+                        <TextView
+                            android:id="@+id/id_project1Anderson"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:gravity="right"
+                            android:text=""
+                            android:textSize="8dp" />
+
+                        <TextView
+                            android:id="@+id/id_projecturl1Anderson"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:gravity="right"
+                            android:text=""
+                            android:textSize="7dp" />
+
+                        <TextView
+                            android:id="@+id/id_project2Andeson"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:gravity="right"
+                            android:text=""
+                            android:textSize="8dp" />
+
+                        <TextView
+                            android:id="@+id/id_projectUrl2Anderson"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_2sdp"
+                            android:gravity="right"
+                            android:text=""
+                            android:textSize="7dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namee_wAnderson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:text="@string/david_anderson"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/designation_wAnderson"
+                android:layout_width="@dimen/_110sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_30sdp"
+                android:background="@drawable/bg_profession"
+                android:paddingStart="@dimen/_2sdp"
+                android:text="Sr Software  Engineer "
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/obj_wanderon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="OBJECTIVE"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <View
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="2dp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:background="@drawable/yallowview" />
+
+            <TextView
+                android:id="@+id/objDetailandeson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:text="Job Objective To secure a challenging and rewarding position as Android Developer with an established organization that can utilize my skills and experience. Designed and coded from specifications, analyzed, evaluated, tested and implemented complex software apps"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/exper_wanderon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="EXPERIENCE"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <View
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="2dp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/yallowview" />
+
+            <LinearLayout
+                android:id="@+id/ly_expAnderDate_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/join_id_anrson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:text="2020"
+                    android:textSize="7dp" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_1sdp"
+                    android:background="@drawable/blackline" />
+
+                <TextView
+                    android:id="@+id/end_id_anderson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2021"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:id="@+id/id_designation_andeson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_32sdp"
+                    android:text="Senior UX Designer"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_expAnderComnyNamefirst"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/id_compnyname_andeson"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:text="Company Name"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:id="@+id/detaildescription_anderson"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_17sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                    android:textSize="7dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_expAnderDate_second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/secnd_job_startAndeson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:text="2018"
+                    android:textSize="7dp" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_1sdp"
+                    android:background="@drawable/blackline" />
+
+                <TextView
+                    android:id="@+id/job_end_secondAndeson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2019"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:id="@+id/id_designation2Andeson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_35sdp"
+                    android:text="Junior UX Designer"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_expAnderComnyNamesecond"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/id_description2Andeson"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:text="Company Name"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:id="@+id/detaildescription2Andeson"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_17sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut."
+                    android:textSize="7dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_expAnderDate_third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/job_joinstrt3Andeson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:text="2017"
+                    android:textSize="7dp" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_1sdp"
+                    android:background="@drawable/blackline" />
+
+                <TextView
+                    android:id="@+id/job_end_3Andeson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2018"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:id="@+id/id_designation3Andeson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_35sdp"
+                    android:text="Junior UX Designer"
+                    android:textSize="7dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ly_expAnderComnyNamethird"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_55sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/id_description3Andeson"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:text="Company Name"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:id="@+id/detaildescription3Andeson"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_17sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:text="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
+                    android:textSize="7dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/skill_wanderon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="SKILLS"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+            <View
+                android:layout_width="@dimen/_22sdp"
+                android:layout_height="2dp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/yallowview" />
+
+            <LinearLayout
+                android:id="@+id/lyid_firsttwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_skillOneAndeson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Photoshop "
+                        android:textSize="8dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_skill2"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_skillTwoAndeson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="InDesign "
+                        android:textSize="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lyid_lasttwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_skillThreeandeson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Illustrator"
+                        android:textSize="8dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ly_skill3"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_skillFourAndeson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="After Effect"
+                        android:textSize="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/showbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="show"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

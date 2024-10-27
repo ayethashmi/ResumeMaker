@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lysmithmain"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_560sdp"
+    android:background="@drawable/jsmithbg"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivsmith"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_170sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:src="@drawable/smithbg" />
+
+        <TextView
+            android:id="@+id/skills_title_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROFESSIONAL SKILLS"
+            android:textColor="#f2545b"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/headinglineimg" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/tv_skill1marko_smith"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Photoshop"
+                android:textColor="@color/white"
+                android:textSize="7dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <SeekBar
+                android:id="@+id/seekSmith1"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_3sdp"
+                android:progressTint="@color/red"
+                android:thumbTint="@color/red"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_skill1marko_smith"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_skill1marko_smith" />
+
+            <TextView
+                android:id="@+id/tv_skill2marko_smith"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="Illustrator"
+                android:textColor="@color/white"
+                android:textSize="7dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_skill1marko_smith" />
+
+            <SeekBar
+                android:id="@+id/seekSmith2"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_3sdp"
+                android:progressTint="@color/red"
+                android:thumbTint="@color/red"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_skill2marko_smith"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_skill2marko_smith" />
+
+            <TextView
+                android:id="@+id/tv_skill3marko_smith"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="InDesign"
+                android:textColor="@color/white"
+                android:textSize="7dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_skill2marko_smith" />
+
+            <SeekBar
+                android:id="@+id/seekSmith3"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_3sdp"
+                android:progressTint="@color/red"
+                android:thumbTint="@color/red"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_skill3marko_smith"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_skill3marko_smith" />
+
+            <TextView
+                android:id="@+id/tv_skill4marko_smith"
+                android:layout_width="@dimen/_45sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:text="After Effect"
+                android:textColor="@color/white"
+                android:textSize="7dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_skill3marko_smith" />
+
+            <SeekBar
+                android:id="@+id/seekSmith4"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_3sdp"
+                android:progressTint="@color/red"
+                android:thumbTint="@color/red"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_skill4marko_smith"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_skill4marko_smith" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/contact_title_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="CONTACT INFORMATION"
+            android:textColor="#f2545b"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/headinglineimg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:src="@drawable/phone_smith" />
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:src="@drawable/email_smith" />
+
+                <ImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:src="@drawable/locationsmith" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:text="PHONE"
+                    android:textColor="@color/white"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:id="@+id/tv_phoneNumber1_smith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+0096655121"
+                    android:textColor="@color/white"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="EMAIL"
+                    android:textColor="@color/white"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:id="@+id/tv_emailshow1_smith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:text="cvmaker@gmail.com"
+                    android:textColor="@color/white"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:text="ADDRESS"
+                    android:textColor="@color/white"
+                    android:textSize="7dp" />
+
+                <TextView
+                    android:id="@+id/tv_adress1_smith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_25sdp"
+                    android:text="Your Street address/Town/City/Zip"
+                    android:textColor="@color/white"
+                    android:textSize="7dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_namee_smith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="SMITH JHON"
+            android:textColor="@color/red"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_designation_smith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="UX Designer"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+
+        <View
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="2dp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:background="@drawable/shortlinesmith" />
+
+        <TextView
+            android:id="@+id/obj_title_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="OBJECTIVE"
+            android:textColor="@color/red"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:src="@drawable/headinglineimg" />
+
+        <TextView
+            android:id="@+id/objDetail_id_smith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:text="@string/about"
+            android:textColor="@color/white"
+            android:textSize="7dp" />
+
+        <TextView
+            android:id="@+id/edu_title_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:text="EDUCATION"
+            android:textColor="@color/red"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:src="@drawable/headinglineimg" />
+
+        <LinearLayout
+            android:id="@+id/lyEdusmith1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/id_dates_complet_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:text="2014-2016"
+                android:textColor="@color/white"
+                android:textSize="8dp" />
+
+            <TextView
+                android:id="@+id/degreename_id_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Degree Name"
+                android:textColor="@color/red"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/universityname_first_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Name"
+                android:textColor="@color/white"
+                android:textSize="7dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyEdusmith2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/id_date_second_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2010-2012"
+                android:textColor="@color/white"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/degnamesecond_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Degree Name"
+                android:textColor="@color/red"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/universitynamesecond_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University Name"
+                android:textColor="@color/white"
+                android:textSize="7dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyEdusmith3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/id_date_third_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_7sdp"
+                android:text="2010-2013"
+                android:textColor="@color/white"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/degnamethird_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Degree Name"
+                android:textColor="@color/red"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/universitynamethird_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:text="University Name"
+                android:textColor="@color/white"
+                android:textSize="7dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/expernce_title_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="EXPERIENCE"
+            android:textColor="@color/red"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:src="@drawable/headinglineimg" />
+
+        <LinearLayout
+            android:id="@+id/lyExpSmithfirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/ly_experienceone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_job_start_smith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:text="2018"
+                    android:textColor="@color/white"
+                    android:textSize="7dp" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_1sdp"
+                    android:background="@drawable/whiteline" />
+
+                <TextView
+                    android:id="@+id/end_second_exp_smith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2019"
+                    android:textColor="@color/white"
+                    android:textSize="7dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/id_designation1_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="Junior UX Designer"
+                android:textColor="@color/red"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/id_orginazationname1_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="Company Name"
+                android:textColor="@color/white"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/jobdescription1_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt,ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                android:textColor="@color/white"
+                android:textSize="7dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lyExpSmithSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/ly_experience2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/job_start_2nd_first_smith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:text="2018"
+                    android:textColor="@color/white"
+                    android:textSize="7dp" />
+
+                <View
+                    android:layout_width="@dimen/_3sdp"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginEnd="@dimen/_1sdp"
+                    android:background="@drawable/whiteline" />
+
+                <TextView
+                    android:id="@+id/job_end_second_smith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2019"
+                    android:textColor="@color/white"
+                    android:textSize="7dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/id_designation2_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="Junior UX Designer"
+                android:textColor="@color/red"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/id_orginazationname2_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:text="Company Name"
+                android:textColor="@color/white"
+                android:textSize="7dp" />
+
+            <TextView
+                android:id="@+id/jobdescription2_smith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_1sdp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+                android:textColor="@color/white"
+                android:textSize="7dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/proj_title_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:text="PROJECTS"
+            android:textColor="@color/red"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:src="@drawable/headinglineimg" />
+
+        <TextView
+            android:id="@+id/id_projectName1_smith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="7dp" />
+
+        <TextView
+            android:id="@+id/id_projectUrl1_smith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/id_projectName2_smith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="7dp" />
+
+        <TextView
+            android:id="@+id/id_projectUrl2_smith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="7dp" />
+    </LinearLayout>
+</LinearLayout>
